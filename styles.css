@@ -7,7 +7,7 @@
 
 /* Set a background color */
 body {
-    background-color: #f2f2f2;
+    background-color: #000000;
 }
 
 /* IMAGE */
@@ -15,24 +15,7 @@ body {
     position: absolute;
     width: auto;
     height: auto;
-    filter: blur(10px);
-    background-image: url('C:/Users/Julius Rayray/Pictures/Screenshots/Screenshot 2024-03-03 184705.png');
-    background-size: ;
-}
-
-/* Add some text styles */
-h1 {
-    font-size: 32px;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 16px;
-    color: #666;
-    text-align: center;
-    margin-bottom: 10px;
+    filter: blur(5px);
 }
 
 /* Add some button styles */
@@ -52,11 +35,43 @@ section {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f2f2f2;
+    color: #ffffff;
 }
 .about {
     display: block;
-    margin-top: 50%;
+    margin-top: 20%;
+}
+
+.home {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.home h1 {
+    font-size: 64px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home h2 {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 35px 50px -35px rgb(255, 255, 255);
+}
+
+.subtitle {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
 }
 
 section h1 {
@@ -67,10 +82,38 @@ section h1 {
 }
 
 section p {
-    font-size: 16px;
-    color: #666;
+    font-size: large;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.about-title {
+    font-size: 48px;
+    color: #ffffff;
     text-align: center;
-    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 30px 50px -30px rgb(255, 255, 255);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    margin-left: 10%;
+    border-radius: 10%;
+}
+
+.name-tag {
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 20px;
+}
+
+.paragraph {
+    margin: 10%;
 }
 
 section .button {
@@ -158,3 +201,4 @@ nav ul li:hover>a {
 nav ul li:hover {
     animation: pulse 1s infinite;
 }
+

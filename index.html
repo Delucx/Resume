@@ -17,10 +17,11 @@
     </script>
 </head>
 
-<body>
+<body id="home">
     <div>
         <div class="image-header">
-            
+            <img src="C:\Users\Julius Rayray\Pictures\Screenshots\Screenshot 2024-03-03 184705.png"
+                style="height: 600px; width: 100%;">
         </div>
         <nav>
             <ul>
@@ -35,29 +36,38 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="home">
+            <div class="title">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="subtitle">
+                <h2>Julius Rayray</h2>
+                <h2>Frontend Developer</h2>
+            </div>
+        </div>
 
         <section id="about" class="about">
-            <div class="profile">
+            <div class="about-title">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor</p>
-                <p>Lorem ipsum dolor</p>
-                <p>Lorem ipsum dolor</p>
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Velit ut tortor pretium viverra suspendisse. Pulvinar mattis nunc sed blandit libero
-                    volutpat
-                    sed. Duis ut diam quam nulla porttitor massa id. Cursus vitae congue mauris rhoncus aenean vel elit.
-                    Ante in
-                    nibh mauris cursus mattis molestie. Arcu bibendum at varius vel pharetra. Eget nunc lobortis mattis
-                    aliquam
-                    faucibus purus. Malesuada fames ac turpis egestas maecenas pharetra. Amet purus gravida quis blandit
-                    turpis
-                    cursus in. Eget aliquet nibh praesent tristique magna. Vulputate odio ut enim blandit volutpat
-                    maecenas
-                    volutpat. Tincidunt dui ut ornare lectus sit amet.</p>
+            <div class="profile">
+                <img src="C:\Users\Julius Rayray\Pictures\pfp.jpg"
+                    style="height: 300px; width: auto;">
+                <div class="name-tag">
+                    <p>Julius Miguel S. Rayray</p>
+                    <p>2nd Year Student</p>
+                    <p>Computer Engineering Student</p>
+                </div>
+                <div class="paragraph">
+                    <p>Hello, I am julius a 2nd Year Computer Engineering student at PUP Instiute of Technology. I
+                        experience the coding at creating a beautiful and functional websites during my coursework. As a
+                        Frontend Deveploper, crafting a seamlessly user-friendly interface with creative design
+                        functionality. I can demonstrate my knowledge in using HTML, CSS, and Javascript which are my
+                        trusted tools for creating structures of website contents, stylize, and add interactive designs that
+                        turning codes into captivating visual website designs. I also used popular frameworks which is
+                        bootstrap that has streamlines of responsive designs. In my spare time I mostly do hobbies and
+                        organization works.</p>
+                </div>
             </div>
         </section>
 
@@ -65,7 +75,7 @@
             <h2>Projects</h2>
             <ul>
                 <li>
-                    <h3>Project 1</h3>
+                    <h3>Project</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua. Velit ut tortor pretium viverra suspendisse. Pulvinar mattis nunc sed
@@ -114,8 +124,31 @@
     </div>
 
     <footer>
-        <p>&copy; 2022 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Use jQuery's animate() method for smooth scrolling
+                $("html, body").animate(
+                    {
+                        scrollTop: $(hash).offset().top,
+                    },
+                    1000 // Adjust the duration as needed
+                );
+            }
+        });
+    </script>
 </body>
 
 </html>
