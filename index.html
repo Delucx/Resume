@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var nav = document.querySelector('nav');
+            if (window.pageYOffset > 0) {
+                nav.classList.add('nav-scroll');
+            } else {
+                nav.classList.remove('nav-scroll');
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+        <div class="image-header">
+            
+        </div>
+        <nav>
+            <ul>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-code-slash"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
+                </svg>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about" class="about">
+            <div class="profile">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua. Velit ut tortor pretium viverra suspendisse. Pulvinar mattis nunc sed blandit libero
+                    volutpat
+                    sed. Duis ut diam quam nulla porttitor massa id. Cursus vitae congue mauris rhoncus aenean vel elit.
+                    Ante in
+                    nibh mauris cursus mattis molestie. Arcu bibendum at varius vel pharetra. Eget nunc lobortis mattis
+                    aliquam
+                    faucibus purus. Malesuada fames ac turpis egestas maecenas pharetra. Amet purus gravida quis blandit
+                    turpis
+                    cursus in. Eget aliquet nibh praesent tristique magna. Vulputate odio ut enim blandit volutpat
+                    maecenas
+                    volutpat. Tincidunt dui ut ornare lectus sit amet.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Velit ut tortor pretium viverra suspendisse. Pulvinar mattis nunc sed
+                        blandit libero volutpat sed. Duis ut diam quam nulla porttitor massa id. Cursus vitae congue
+                        mauris
+                        rhoncus aenean vel elit. Ante in nibh mauris cursus mattis molestie. Arcu bibendum at varius vel
+                        pharetra. Eget nunc lobortis mattis aliquam faucibus purus. Malesuada fames ac turpis egestas
+                        maecenas pharetra. Amet purus gravida quis blandit turpis cursus in. Eget aliquet nibh praesent
+                        tristique magna. Vulputate odio ut enim blandit volutpat maecenas volutpat. Tincidunt dui ut
+                        ornare
+                        lectus sit amet.</p>
+                </li>
+                <li>
+                    <h3>Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Velit ut tortor pretium viverra suspendisse. Pulvinar mattis nunc sed
+                        blandit libero volutpat sed. Duis ut diam quam nulla porttitor massa id. Cursus vitae congue
+                        mauris
+                        rhoncus aenean vel elit. Ante in nibh mauris cursus mattis molestie. Arcu bibendum at varius vel
+                        pharetra. Eget nunc lobortis mattis aliquam faucibus purus. Malesuada fames ac turpis egestas
+                        maecenas pharetra. Amet purus gravida quis blandit turpis cursus in. Eget aliquet nibh praesent
+                        tristique magna. Vulputate odio ut enim blandit volutpat maecenas volutpat. Tincidunt dui ut
+                        ornare
+                        lectus sit amet.</p>
+                </li>
+                <!-- Add more projects here -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Velit ut tortor pretium viverra suspendisse. Pulvinar mattis nunc sed blandit libero
+                volutpat
+                sed. Duis ut diam quam nulla porttitor massa id. Cursus vitae congue mauris rhoncus aenean vel elit.
+                Ante in
+                nibh mauris cursus mattis molestie. Arcu bibendum at varius vel pharetra. Eget nunc lobortis mattis
+                aliquam
+                faucibus purus. Malesuada fames ac turpis egestas maecenas pharetra. Amet purus gravida quis blandit
+                turpis
+                cursus in. Eget aliquet nibh praesent tristique magna. Vulputate odio ut enim blandit volutpat maecenas
+                volutpat. Tincidunt dui ut ornare lectus sit amet.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2022 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

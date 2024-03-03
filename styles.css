@@ -1,0 +1,160 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* IMAGE */
+.image-header {
+    position: absolute;
+    width: auto;
+    height: auto;
+    filter: blur(10px);
+    background-image: url('C:/Users/Julius Rayray/Pictures/Screenshots/Screenshot 2024-03-03 184705.png');
+    background-size: ;
+}
+
+/* Add some text styles */
+h1 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Add some button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* SECTION */
+section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.about {
+    display: block;
+    margin-top: 50%;
+}
+
+section h1 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+section .button:hover {
+    background-color: #555;
+}
+
+/* NAV */
+nav {
+    display: block;
+    background-color: #101010;
+    border: 2px solid #cecece;
+    border-radius: 10px;
+    height: 100%;
+    transition: margin 0.5s ease-in-out;
+}
+
+/* NAV */
+nav {
+    display: block;
+    background-color: #101010;
+    border: 2px solid #cecece;
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: sticky;
+    top: 0;
+    transition: top 0.5s ease-in-out, margin 0.5s ease-in-out;
+}
+
+.nav-scroll {
+    margin-left: 150px;
+    margin-right: 150px;
+    position: sticky;
+    top: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin: 20px;
+}
+
+nav ul svg {
+    margin-right: auto;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+nav ul li:hover>a {
+    color: yellow;
+    transition: none;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+nav ul li:hover {
+    animation: pulse 1s infinite;
+}
