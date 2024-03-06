@@ -7,6 +7,7 @@
 
 /* Set a background color */
 body {
+    font-family: 'Merienda', cursive;
     background-color: #000000;
 }
 
@@ -97,7 +98,7 @@ section p {
 
 .profile {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -107,7 +108,7 @@ section p {
 }
 
 .name-tag {
-    width: 100%;
+    width: auto;
     margin-right: 10%;
     margin-left: 20px;
 }
